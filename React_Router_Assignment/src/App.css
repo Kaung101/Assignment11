@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+a.active {
+  color: red;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container div {
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+.container nav {
+  margin: .5em 0;
+}
+
+.container nav a {
+  margin: 0 .5em;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: .75em;
+}
+
+.App-header {
+  font-weight: bolder;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+  margin: 4px;
+  padding: 6px 18px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(255, 255, 255);            
+  border-radius: 5px;
+  display: block;
+  border: 0px;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+img.admin-image {
+  width: 125px;
+  height: auto;
+  margin: 1em;
+  border-radius: .5em;
+}
